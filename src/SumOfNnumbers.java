@@ -1,4 +1,5 @@
 /**
+ * Problema nr 2 din tema 1
  * Created by Serbanescu on 26.02.2017.
  */
 public class SumOfNnumbers {
