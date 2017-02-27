@@ -7,7 +7,7 @@ public class Power {
         int x = SkeletonJava.readIntConsole("se da numarul: ");
         int a = SkeletonJava.readIntConsole("se ridica la puterea: ");
 
-        int multip = Multiply(x, a); //apelam metoda
+        int multip = Multiply(x, a); //apelam metoda in noua variabila multip
         /*SkeletonJava.printConsole(multip);*/
         System.out.println(multip);
 
