@@ -6,8 +6,10 @@ public class Power {
         int x = SkeletonJava.readIntConsole("se da numarul: ");
         int a = SkeletonJava.readIntConsole("se ridica la puterea: ");
 
-        int multip = Multiply(x, a);
-        SkeletonJava.printConsole(multip);
+        int multip = Multiply(x, a); //apelam metoda
+        /*SkeletonJava.printConsole(multip);*/
+        System.out.println(multip);
+
 
     }
 
@@ -17,7 +19,7 @@ public class Power {
 
         for ( int  counter = 1; counter< a; counter ++ ){
         multi = multi * x;
-        SkeletonJava.printConsole(multi + "adding x to multiply number");}
+       /*SkeletonJava.printConsole(multi );*/}
 
         return multi;
 
