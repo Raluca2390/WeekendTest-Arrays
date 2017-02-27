@@ -1,4 +1,5 @@
 /**
+ * Problem numarul 5
  * Created by Serbanescu on 26.02.2017.
  */
 public class Power {
