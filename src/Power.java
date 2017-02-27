@@ -4,19 +4,24 @@
 public class Power {
     public static void main(String[] args) {
         int x = SkeletonJava.readIntConsole("se da numarul: ");
-        int a  = SkeletonJava.readIntConsole("se ridica la puterea: ");
+        int a = SkeletonJava.readIntConsole("se ridica la puterea: ");
 
-      int pow;
-      int counter = 1;
-      while(counter<=a){
-          pow = x + x;
-          System.out.println(pow);
-      }
-
-      /*  for(i=0; i<=a; i++)
-        { if(pow = x*x) ;
-            }
-        return (pow);*/
+        int multip = Multiply(x, a);
+        SkeletonJava.printConsole(multip);
 
     }
+
+
+    public static int Multiply(int x, int a ){
+        int multi = x ;
+
+        for ( int  counter = 1; counter< a; counter ++ ){
+        multi = multi * x;
+        SkeletonJava.printConsole(multi + "adding x to multiply number");}
+
+        return multi;
+
+
+    }
+
 }
