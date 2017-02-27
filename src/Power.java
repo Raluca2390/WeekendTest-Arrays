@@ -10,16 +10,15 @@ public class Power {
         /*SkeletonJava.printConsole(multip);*/
         System.out.println(multip);
 
-
     }
 
+    public static int Multiply(int x, int a) {
+        int multi = x;
 
-    public static int Multiply(int x, int a ){
-        int multi = x ;
-
-        for ( int  counter = 1; counter< a; counter ++ ){
-        multi = multi * x;
-       /*SkeletonJava.printConsole(multi );*/}
+        for (int counter = 1; counter < a; counter++) {
+            multi = multi * x;
+       /*SkeletonJava.printConsole(multi );*/
+        }
 
         return multi;
 
