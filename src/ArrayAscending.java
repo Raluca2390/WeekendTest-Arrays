@@ -8,12 +8,12 @@ public class ArrayAscending {
         int sir[] = new int[n];
         System.out.println("Enter all the elements:");
 
-        for (int i = 0; i <= n; i++) {
-            sir[i] = n;
+        for (int i = 0; i < n; i++) {
+            sir[i] = SkeletonJava.readIntConsole("n[ "+i+"]=");;
 
         }
 
-        for (int i = 0; i <= n; i++){
+        for (int i = 0; i < n; i++){
             for (int j = i+1; j<n ; j++ ){
                 if (sir[i]<sir[j]){
                     { temp =sir[i];
