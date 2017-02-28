@@ -17,13 +17,15 @@ public class NNamSurname {
     public static void main(String[] args) {
         int persoane = SkeletonJava.readIntConsole("cate persoane sa fie");
         String[] names = new String[persoane] ;
-        String[] surname = new String[surname];
+        String[] surname = new String[persoane];
+        String[] dn =new String[persoane];
             for(int i=0; i< persoane; i++){
                  names[i] = SkeletonJava.readStringConsole("nume") ;
-                 surname[i] = SkeletonJava.readStringConsole(("prenume"));
+                 surname[i] = SkeletonJava.readStringConsole("prenume");
+                 dn [i] = SkeletonJava.readStringConsole("data nasterii");
             }
             for(int i=0; i<persoane; i++){
-                SkeletonJava.printConsole(names[i] +"+" +surname[i] + names[i].length());
+                SkeletonJava.printConsole(names[i] +"+" +surname[i] +names[i].length() +"+" +dn[i]);
             }
     }
 
