@@ -19,6 +19,8 @@ public class NNamSurname {
         String[] names = new String[persoane] ;
         String[] surname = new String[persoane];
         String[] dn =new String[persoane];
+        /*string[][] persoana = new string[persoane][2];
+        * */
             for(int i=0; i< persoane; i++){
                  names[i] = SkeletonJava.readStringConsole("nume") ;
                  surname[i] = SkeletonJava.readStringConsole("prenume");
