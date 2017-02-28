@@ -2,13 +2,26 @@
  * Created by Serbanescu on 28.02.2017.
  */
 public class Person {
+    //instanta
+    static int persoaneCreate = 0;
     private String prenume;
     private String nume;
     private  String datanasterii;
+    //idul persoanei
+    private int id;
+
+
+
 
     public Person () {}
+
     public Person(String nume, String prenume) {
         this.prenume = prenume;//; ne-ar cere string la nume si prenume
+        this.nume = nume;
+        datanasterii = x;
+        persoaneCreate = persoaneCreate +1;
+        this.id = persoaneCreate;
+
     }
     public String getPrenume(){ //metode de citit starea
         return prenume;}  //starea
